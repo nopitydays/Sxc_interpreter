@@ -1,0 +1,41 @@
+﻿生成启动时间为 2015/9/26 10:24:51。
+     1>项目“C:\Users\Administrator\Desktop\last\last_sxc.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt sxc_error.c sxc_main.c
+         sxc_main.c
+     1>sxc_main.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\administrator\desktop\last\sxc_interface.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\administrator\desktop\last\sxc_struct.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>sxc_main.c(30): warning C4013: “strcmp”未定义；假设外部返回 int
+     1>sxc_main.c(66): warning C4013: “DeleteList”未定义；假设外部返回 int
+     1>sxc_main.c(78): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>sxc_main.c(87): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VS2013\VC\include\stdio.h(211) : 参见“fopen”的声明
+         sxc_error.c
+     1>sxc_error.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\administrator\desktop\last\sxc_interface.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\users\administrator\desktop\last\sxc_struct.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>sxc_error.c(52): warning C4013: “DeleteList”未定义；假设外部返回 int
+         正在生成代码...
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\last\Debug\last_sxc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Desktop\last\Debug\last_sxc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\last\Debug\last_sxc.lib" /MACHINE:X86 Debug\for_stm.obj
+         Debug\if_stm.obj
+         Debug\in_stm.obj
+         Debug\out_stm.obj
+         Debug\pretreatment.obj
+         Debug\simple_stm.obj
+         Debug\sub_stm.obj
+         Debug\sxc.obj
+         Debug\sxc_debug.obj
+         Debug\sxc_error.obj
+         Debug\sxc_main.obj
+         Debug\sxc_var.obj
+         Debug\value_stm.obj
+         Debug\while_stm.obj
+         last_sxc.vcxproj -> C:\Users\Administrator\Desktop\last\Debug\last_sxc.exe
+     1>已完成生成项目“C:\Users\Administrator\Desktop\last\last_sxc.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.59
